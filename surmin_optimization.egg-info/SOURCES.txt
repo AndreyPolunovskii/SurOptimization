@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+surmin_optimization/__init__.py
+surmin_optimization/common_cli.py
+surmin_optimization.egg-info/PKG-INFO
+surmin_optimization.egg-info/SOURCES.txt
+surmin_optimization.egg-info/dependency_links.txt
+surmin_optimization.egg-info/entry_points.txt
+surmin_optimization.egg-info/requires.txt
+surmin_optimization.egg-info/top_level.txt
+surmin_optimization/example/SurMin.py
+surmin_optimization/example/SurMinTest.py
+surmin_optimization/example/__init__.py
