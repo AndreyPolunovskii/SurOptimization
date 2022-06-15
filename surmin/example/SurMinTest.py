@@ -1,7 +1,7 @@
-import surmin_optimization.example.SurMin as sm
+import surmin.example.SurMin as sm
 
 
-def main():
+def test_solve():
     def get_sigCV( Penal, iter ):
         return (Penal[0]-1)**2
 

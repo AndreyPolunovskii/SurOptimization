@@ -8,15 +8,10 @@ if isfile(FILE_REQS):
         reqs = f.read().splitlines()
 
 setup(
-    name='surmin-optimization',
+    name='surmin',
     version='1.0.5',
     packages=find_packages(),
     install_requires=reqs,
     long_description=open(join(dirname(__file__), 'README.md')).read(),
     include_package_data=True,
-    entry_points={
-        'console_scripts': [
-            'pysurmin = surmin_optimization.common_cli:common_cli'
-        ]
-    }
 )
